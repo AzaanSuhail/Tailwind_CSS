@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply text-white bg-purple-900
+    }
+}
+
+//it means this class will be used after the component layers means this css will come after the components layer
